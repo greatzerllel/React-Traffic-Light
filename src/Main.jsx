@@ -1,20 +1,14 @@
 import React from 'react';
-/* import Navbar from './components/Navbar';
-import Body from './components/Body'; */
-import ComponentTest from './components/ComponentTest';
+import { TraficLight } from './components/TraficLight'
 
-export function Main({ /* navbar, body, cards, */ footer }) { // Destructurin Javascript
+function Main() {
     return (
         <>
-           {/*  <Navbar navbar={navbar} />
-
-            <Body body={body} cards={cards} />
- */}
-            <ComponentTest footer={footer} />
+            <div className="container">
+                <TraficLight />
+            </div>
         </>
-
     )
-
 }
 
 export default Main;

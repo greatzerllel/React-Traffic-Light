@@ -1,1 +1,47 @@
-/* ADD CSS */
+body{
+    background-color: darkslategray;
+}
+.traficLight{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.traficLightTop{
+    width: 20px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: black;
+}
+.traficLightBox{
+    background-color: black;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.traficLightCircle{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.glowR{
+    box-shadow: 0px 0px 30px rgb(255, 60, 0);
+}
+.glowY{
+    box-shadow: 0px 0px 30px rgb(255, 196, 0);
+}
+.glowG{
+    box-shadow: 0px 0px 30px rgb(0, 255, 13);
+}
